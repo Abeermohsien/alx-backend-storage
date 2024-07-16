@@ -1,0 +1,2 @@
+// inserting a docmemt
+db.school.insert({name: "Holberton school"});
