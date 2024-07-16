@@ -20,8 +20,7 @@ def print_nginx_request_logs(nginx_collection):
 
 
 def run():
-    '''Provides some stats about Nginx logs stored in MongoDB.
-    '''
+    '''girve some status  '''
     client = MongoClient('mongodb://127.0.0.1:27017')
     print_nginx_request_logs(client.logs.nginx)
 
